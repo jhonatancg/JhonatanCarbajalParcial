@@ -1,0 +1,18 @@
+version: "1"
+
+services:
+  postgres:
+    image: postgres:alpine3.14
+    container_name: dbparcial-postgres
+    restart: always
+    environment:
+    - POSTGRES_PASSWORD=Unu#2025
+    ports:
+    - 5439:5432
+    networks:
+    - td2025
+    
+networks:
+  td2025:
+    name: ms-unu
+

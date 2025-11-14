@@ -1,0 +1,3 @@
+MsUsuario	-	http://localhost:85/api/entidads/Login
+MsProducto	-	http://localhost:86/api/entidads/ActualizarPrecio
+MsOperacion	-	http://localhost:91/api/entidads/Registrar
